@@ -384,6 +384,23 @@
 
         <div class="content-section active" id="overview">
             <h2>Overview</h2>
+            
+            <div style="background: linear-gradient(135deg, #21336A, #008CC7); border-radius: 15px; padding: 30px; margin-bottom: 30px; color: white; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+                <h3 style="color: white; border-bottom: 3px solid rgba(255, 255, 255, 0.3); padding-bottom: 15px; margin-bottom: 20px; border-left: none; padding-left: 0;">Part of a Larger End-to-End Strategy</h3>
+                <p style="font-size: 1.1em; line-height: 1.8; margin-bottom: 20px;">
+                    This verse prompt series is part of a comprehensive end-to-end strategy for mobilizing people to get trained in disciple-making. The strategy targets <strong>Zúme Training</strong> as the primary training program, with this ad campaign designed to create acceleration of opportunities to talk to people and mobilize them into coaching.
+                </p>
+                <div style="background: rgba(255, 255, 255, 0.15); border-radius: 10px; padding: 20px; margin-top: 20px; border-left: 5px solid #72d360;">
+                    <h4 style="color: white; margin-bottom: 15px; background: transparent; padding: 0;">The Complete Conversion Process</h4>
+                    <p style="margin-bottom: 15px;">
+                        A dedicated team of coaches responded to follow-ups aggressively using WhatsApp and video calls to onboard people into courses. This multi-channel approach ensured that every contact received personalized attention and support throughout their journey.
+                    </p>
+                    <p style="margin-bottom: 0; font-weight: 600;">
+                        The success rate was exceptionally high, but only partially because of the prompt series. The follow-up team did an extraordinary job converting contacts into students, demonstrating that effective mobilization requires both strategic ad campaigns and dedicated personal engagement.
+                    </p>
+                </div>
+            </div>
+            
             <p>This document outlines the systematic approach used in the verse-prompts folder to create targeted Google Ads campaigns and landing pages for biblical verses, specifically designed to promote Zume Training's discipleship program.</p>
             
             <div class="principles-grid">
@@ -442,12 +459,13 @@
             <div class="phase-grid">
                 <div class="phase-card">
                     <h4>Phase 1: Setup and Context Loading</h4>
-                    <div class="purpose">Prompts 1.1-1.7: Initialize campaign parameters and load essential context</div>
+                    <div class="purpose">Prompts 1.1-1.6: Initialize campaign parameters and load essential context</div>
                     <ul class="actions">
                         <li>Variable initialization and file path setup</li>
-                        <li>Ad group configuration and naming conventions</li>
+                        <li>Ad group CSV file creation</li>
                         <li>Brand voice guidelines integration</li>
                         <li>Zume concepts and policy compliance loading</li>
+                        <li>Effective writing guide integration</li>
                     </ul>
                 </div>
 
@@ -464,7 +482,7 @@
 
                 <div class="phase-card">
                     <h4>Phase 3: Ad Copy Creation</h4>
-                    <div class="purpose">Prompts 3.1-3.2: Create compelling ad headlines and descriptions</div>
+                    <div class="purpose">Prompts 3.1-3.2: Create compelling ad headlines</div>
                     <ul class="actions">
                         <li>Generate headlines from keywords and scripture</li>
                         <li>Quality control and compliance filtering</li>
@@ -518,19 +536,20 @@
                 </div>
             </div>
 
+            <hr style="margin: 40px 0; border: none; border-top: 2px solid #008CC7; opacity: 0.3;">
+
             <h3>Detailed Phase Breakdown</h3>
             
-            <h4>Phase 1: Setup and Context Loading (Prompts 1.1-1.7)</h4>
+            <h4>Phase 1: Setup and Context Loading (Prompts 1.1-1.6)</h4>
             <div class="phase-card">
                 <div class="purpose">Establish campaign foundation and load essential resources</div>
                 <ul class="actions">
-                    <li><strong>1.1 Variable Initialization:</strong> Load campaign parameters, file paths, and language-specific settings</li>
-                    <li><strong>1.2 Ad Group Configuration:</strong> Create naming conventions and target URL structure</li>
-                    <li><strong>1.3 Ad Group CSV Creation:</strong> Generate Google Ads ad group structure and templates</li>
-                    <li><strong>1.4 Brand Voice Guidelines:</strong> Load Zume Training's brand personality and tone</li>
-                    <li><strong>1.5 Zume Concepts Integration:</strong> Provide 33 core discipleship concepts and tools</li>
-                    <li><strong>1.6 Google Ads Policy Compliance:</strong> Ensure ad content meets advertising standards</li>
-                    <li><strong>1.7 Effective Writing Guidelines:</strong> Optimize ad copy for performance and engagement</li>
+                    <li><strong>1.1 Variable Setup:</strong> Load campaign parameters, file paths, and language-specific settings</li>
+                    <li><strong>1.2 Create Ad Group CSV:</strong> Generate Google Ads ad group structure and templates</li>
+                    <li><strong>1.3 Load Zume Tone and Voice:</strong> Load Zume Training's brand personality and tone</li>
+                    <li><strong>1.4 Load Zume Concepts:</strong> Provide 33 core discipleship concepts and tools</li>
+                    <li><strong>1.5 Load Google Policies:</strong> Ensure ad content meets advertising standards</li>
+                    <li><strong>1.6 Load Effective Writing Guide:</strong> Optimize ad copy for performance and engagement</li>
                 </ul>
             </div>
 
@@ -539,7 +558,7 @@
                 <div class="purpose">Generate comprehensive keyword lists for targeted advertising</div>
                 <ul class="actions">
                     <li><strong>2.1 Keyword Discovery:</strong> Create verse variations, key phrases, and theological terms</li>
-                    <li><strong>2.2 Keywords CSV Creation:</strong> Format keywords for Google Ads import with proper structure</li>
+                    <li><strong>2.2 Create Keywords TXT:</strong> Format keywords for Google Ads import with proper structure</li>
                 </ul>
             </div>
 
@@ -638,7 +657,7 @@
                 <h4>Generated Files</h4>
                 <ol>
                     <li><strong>Ad Group CSV:</strong> <code>[AD_GROUP_NAME]_new_ad_group.csv</code></li>
-                    <li><strong>Keywords CSV:</strong> <code>[AD_GROUP_NAME]_keywords.csv</code></li>
+                    <li><strong>Keywords TXT:</strong> <code>[AD_GROUP_NAME]_keywords.txt</code></li>
                     <li><strong>Ad CSV:</strong> <code>[AD_GROUP_NAME]_ad.csv</code></li>
                     <li><strong>Landing Page HTML:</strong> <code>[AD_GROUP_NAME].html</code></li>
                 </ol>
