@@ -174,15 +174,10 @@ Once your variables are configured, you can run the complete workflow:
 After completing the setup and running the workflow, verify everything is working:
 
 1. **Check generated files**:
-   ```bash
-   # Verify directories were created
-   ls -la keywords/
-   ls -la ads/
-   ls -la ad-groups/
-   ls -la website/
-   ```
+   Use your Finder or Explorer window to verify folders and assets were created
 
 2. **Verify Netlify deployment**:
+   - Tell Cursor-Agent to `save and push files to github`
    - Check your Netlify dashboard for successful deployments
    - Visit your Netlify URL to see if landing pages are accessible
    - Files should appear in the `website/[LANGUAGE_CODE]/` directory
