@@ -54,7 +54,7 @@ The project follows a comprehensive 7-step workflow documented in `prompt.md`:
    - 10 variation keywords (e.g., "Mt 28 18", "Matt 28.18")
    - 20 phrase keywords (key phrases from the verse)
    - 10 theologically connected keywords
-2. **Create Keywords CSV (2.2)**: Save keywords to text file
+2. **Create Keywords TXT (2.2)**: Save keywords to text file
 
 ### Step 3: Headline Generation (Prompts 3.1 - 3.2)
 1. **Generate Headlines (3.1)**: Create 120 headlines:
@@ -220,8 +220,9 @@ Where `[AD_GROUP_NAME]` = `[CAMPAIGN_PREFIX]-[LANGUAGE_CODE]`
 
 ## Additional Resources
 
-For detailed step-by-step instructions, refer to `prompt.md` which contains:
-- Complete prompt templates for each workflow step
-- Content blocks for brand voice, concepts, and policies
-- Translation quality assessment criteria
-- Comprehensive glossary of Zume Training terminology
+- **`prompt.md`**: Detailed step-by-step workflow instructions containing:
+  - Complete prompt templates for each workflow step
+  - Content blocks for brand voice, concepts, and policies
+  - Translation quality assessment criteria
+  - Comprehensive glossary of Zume Training terminology
+- **`INSTRUCTIONS.md`**: Setup guide for using this project with GitHub, Netlify, and Cursor
