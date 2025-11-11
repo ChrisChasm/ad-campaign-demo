@@ -1,0 +1,15 @@
+Let's quality check the [HEADLINES] step by step:
+
+First, remove duplicate headlines from [HEADLINES]. Remaining number of headlines must be greater than 15.
+
+Second, remove headlines longer than 29 characters from [HEADLINES]. Remaining number of headlines must be greater than 15, if not generate more.
+
+Third, remove headlines that are irrelevant to [SCRIPTURE] from [HEADLINES]. Remaining number of headlines must be greater than 15, if not generate more.
+
+Fourth, remove the headlines that fail to comply with [GOOGLE_POLICIES] from [HEADLINES]. Remaining number of headlines must be greater than 15, if not generate more.
+
+If more than 15 headlines remain, evaluate and choose the top 15 according to [EFFECTIVE_WRITING].
+
+Output only the phrases, no numbering, no annotations, do not use ( ).
+
+This final list will be referenced as [FINAL_HEADLINES].

@@ -1,0 +1,58 @@
+Rewrite content of this JSON template for a high conversion landing page that will recieve the traffic from an advertisement for [SCRIPTURE] to promote Zume Training. 
+
+Do the following steps:
+- Translate the current content of the JSON into [LANGUAGE]. 
+- Change all quotes and references to match the [SCRIPTURE]. 
+- Use the [CROSS_REFERENCED_CONTENT] as informational background to help you rewrite the help card section and the FAQ content section.
+
+The following is the JSON template:
+{
+  "meta_title": "Zúme Training - The Great Commission",
+  "meta_description": "Learn how to obey Matthew 28:18-20 with Zume Training: practical tools and training to make disciples of all nations.",
+  "meta_keywords": "Zúme, Matthew 28:18, great commission, make disciples, spiritual training, free coaching",
+  "meta_canonical_url": "https://pages.zume.training/verse/[LANGUAGE_CODE]/[AD_GROUP_NAME].html",
+  "base_url": "https://zume.training/[LANGUAGE_CODE]",
+  "structured_data_offers_description": "Free discipleship training and coaching",
+  "structured_data_courseMode": "online",
+  "structured_data_educationalLevel": "beginner",
+  "structured_data_teaches": "discipleship, spiritual growth, biblical training",
+  "hero_headline": "Matthew 28:18-20",
+  "hero_scripture_text": "\"And Jesus came and spoke to them, saying, 'All authority has been given to Me in heaven and on earth. Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all things that I have commanded you; and lo, I am with you always, even to the end of the age.'\"",
+  "hero_scripture_reference": "— Matthew 28:18-20",
+  "hero_explore_heading": "To better understand this verse, explore Zúme Training.",
+  "hero_cta_text": "Start Your Journey",
+  "hero_cta_url": "https://zume.training/[LANGUAGE_CODE]/login?redirect_to=https%3A%2F%2Fzume.training%2Fwizard%2Fget-a-coach&action=register&ref=[AD_GROUP_NAME]",
+  "hero_cta_aria_label": "Start your discipleship journey with Zume Training",
+  "how_zume_helps_title": "How Zúme Training Helps You Obey This Scripture",
+  "how_zume_helps_subtitle": "Our free training and coaching program provides the practical tools, support, and accountability needed to fulfill the Great Commission and make disciples of all nations.",
+  "help_card_0_icon": "fas fa-tools",
+  "help_card_0_title": "Practical Discipleship Tools",
+  "help_card_0_description": "Learn simple and reproducible methods like S.O.A.P.S. Bible Study and Spiritual Breathing to hear God's voice and fulfill His commands, just as in Matthew 28:18-20.",
+  "help_card_1_icon": "fas fa-users",
+  "help_card_1_title": "Personal Coaching Training",
+  "help_card_1_description": "Connect with experienced trainers who will guide you to apply biblical principles to your life, helping you grow in faith and make disciples effectively.",
+  "help_card_2_icon": "fas fa-globe",
+  "help_card_2_title": "Global Community and Accountability",
+  "help_card_2_description": "Join a faith community that will support your spiritual growth and help you stay committed to the Great Commission in your local and global context.",
+  "faq_title": "Common Questions About Zume Training",
+  "faq_subtitle": "Answers to questions you might have about Zume Training and how it helps you fulfill the Great Commission.",
+  "faq_item_0_question": "How can Zúme Training help me fulfill the Great Commission?",
+  "faq_item_0_answer": "Zúme Training provides practical tools and training to make disciples of all nations, just as Jesus commanded us in Matthew 28:18-20. We will connect you with a trainer who speaks your language and, when possible, lives in your geographic area. This trainer will contact you to schedule the first session, where you can discuss your current situation and goals. From there, your trainer will guide you through Zúme's practical discipleship tools, provide accountability, answer questions, and help you apply what you're learning in your specific context. All this training is free—our trainers donate their time because they are passionate about helping you grow.",
+  "faq_item_1_question": "What tools does Zúme Training offer for making disciples?",
+  "faq_item_1_answer": "Zúme Training provides practical tools like S.O.A.P.S. Bible Study and Spiritual Breathing that help you hear God's voice and fulfill His commands. These tools are designed to integrate into your daily life, making it easier for you to make disciples and multiply faith in your community and beyond.",
+  "faq_item_2_question": "How does Zúme Training's free training program work?",
+  "faq_item_2_answer": "After you register, we will connect you with a trainer who speaks your language and, when possible, lives in your geographic area. This trainer will contact you to schedule the first session, where you can discuss your current situation and goals. From there, your trainer will guide you through Zúme's practical discipleship tools, provide accountability, answer questions, and help you apply what you're learning in your specific context. All this training is free—our trainers donate their time because they are passionate about helping you grow.",
+  "faq_item_3_question": "I don't feel qualified to make disciples. Will Zúme Training really be useful for me?",
+  "faq_item_3_answer": "Many people feel exactly like you. Not feeling qualified is definitely one of the most common questions we hear. Zúme Training specifically addresses this by providing simple, reproducible practical tools that build your confidence step by step. We will connect you with a trainer who will help you grow at the pace you're ready for. Remember that Jesus promised to be with us \"always, even to the end of the age\"—you are not alone in this mission.",
+  "faq_item_4_question": "How can I start making disciples in my local community?",
+  "faq_item_4_answer": "Zúme Training teaches you to start where you are, with the people you already know. Through tools like the \"Way of Galilee\" and simple discipleship methods, you will learn to identify people of peace in your community, share your faith naturally, and start discipleship groups that multiply. Your trainer will guide you step by step through this process, adapting strategies to your specific context and helping you overcome common obstacles.",
+  "final_cta_title": "Ready to Fulfill the Great Commission?",
+  "final_cta_description": "Take a simple step today that can transform your spiritual life and that of others. Connect with a free trainer who will guide you from faith to action, helping you obey Matthew 28:18-20 and make disciples of all nations.",
+  "final_cta_cta_text": "Connect with Your Free Trainer",
+  "final_cta_cta_url": "https://zume.training/[LANGUAGE_CODE]/login?redirect_to=https%3A%2F%2Fzume.training%2Fwizard%2Fget-a-coach&action=register&ref=[AD_GROUP_NAME]",
+  "final_cta_cta_aria_label": "Connect with your free Zúme Training coach"
+}
+
+Inside the JSON replace [AD_GROUP_NAME] with the CAMPAIGN_ID, and the [LANGUAGE_CODE] with the LANGUAGE_CODE.
+
+Output only JSON with new content and allow it to be referenced as [LANDING_JSON].

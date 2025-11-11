@@ -1,0 +1,5 @@
+Cross-reference [ZUME_CONCEPTS] with [KEYWORDS], [FINAL_HEADLINES], AND [FINAL_DESCRIPTIONS].
+
+Generate a list that identifies natural connections between the ad and zume training. Enumerate the list and give a descriptive title and an expansive paragraph for each connection.
+
+This cross-referenced list will be referenced as [CROSS_REFERENCED_CONTENT].

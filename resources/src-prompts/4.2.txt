@@ -1,0 +1,15 @@
+Let's quality check the [DESCRIPTIONS] step by step:
+
+First, remove duplicate descriptions from [DESCRIPTIONS]. Remaining number of descriptions must be greater than 4.
+
+Second, remove descriptions longer than 89 characters. 
+
+Third, remove descriptions that are irrelevant to [SCRIPTURE] from [DESCRIPTIONS]. Remaining number of descriptions must be greater than 4.
+
+Forth, remove the descriptions that fail to comply with [GOOGLE_POLICIES] from [DESCRIPTIONS]. Remaining number of descriptions must be greater than 4.
+
+Fifth, if more than 4 descriptions remain, evaluate and choose the top 4 according to [EFFECTIVE_WRITING].
+
+Output only the phrases, no numbering, no annotations.
+
+This final list will be referenced as [FINAL_DESCRIPTIONS].

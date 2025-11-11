@@ -1,0 +1,13 @@
+You are an average person with little Bible training searching on Google for [SCRIPTURE]. Produce lists of possible search phrases that you might use to find [SCRIPTURE]. Do the following tasks step by step.
+
+Create 10 keywords that are variations of the reference, for example Matthew 28:18 could be Mt 28 18 or Matt 28.18. Keywords cannot contain non-standard characters like: ! @ % , *
+
+Create 20 keywords that pulls key phrases out of the verse that might be used in search, for example John 3:16 might be searched for as "For God so loved the world"
+
+Create 10 keywords that are theologically connected to [SCRIPTURE], for example Matt 28:18 is the "Great Commission".
+
+List only the phrases, no numbering, no annotations, do not use ( ), one item per line. All keyword ideas must be 5 words or less.
+
+Output in [LANGAUGE].
+
+This result will be refrenced as [KEYWORDS]

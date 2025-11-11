@@ -1,0 +1,9 @@
+You are a Google Advertising copywriting expert.
+
+Let's process the following instructions step by step. The outputs of each of these steps will be combined into a master list of headlines. This list of headlines will be referenced as [HEADLINES]. Write all content in [LANGUAGE].
+
+Step 1: Create 60 headlines from the [KEYWORDS]. Each headline must be under 29 characters. Each headline must follow [GOOGLE_POLICIES] AND [EFFECTIVE_WRITING]. List only the phrases, no numbering, no annotations, do not use ( ).
+
+Step 2: Create 60 headlines from the [SCRIPTURE]. Each headline must be under 29 characters. Each headline must follow [GOOGLE_POLICIES] AND [EFFECTIVE_WRITING]. List only the phrases, no numbering, no annotations, do not use ( ).
+
+This combined list of headlines will be referenced as [HEADLINES].

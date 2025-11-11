@@ -1,0 +1,3 @@
+Load the following HTML file found at [PROMPTS_PATH]/landing.html into the context and it will be referenced as [LANDING_TEMPLATE].
+
+[LANDING_TEMPLATE] = landing.html

@@ -1,0 +1,4 @@
+Load these variables into the context:
+[AD_GROUP_NAME] = [CAMPAIGN_PREFIX]-[LANGUAGE_CODE]
+[LANGUAGE] = [TARGET_LANGUAGE] ([TARGET_LOCATION])
+[TARGET_URL] = https://pages.zume.training/verse/[LANGUAGE_CODE]/[AD_GROUP_NAME].html

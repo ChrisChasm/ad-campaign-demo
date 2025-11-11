@@ -1,0 +1,15 @@
+Create a csv file inside [KEYWORDS_PATH]/[LANGUAGE_CODE] and call the file [AD_GROUP_NAME]_keywords.csv.  Enclose all contents within double-quotes (").
+
+Use the default template structure below for the header and default fields.
+Use [KEYWORDS] to populate the "Keyword" field in the csv.
+Make a new line for each keyword in the [KEYWORDS] list.
+Include a header row in the csv file.
+
+Default Template Structure:
+- Action: Add
+- Keyword status: Enabled
+- Campaign: [CAMPAIGN_NAME]
+- Ad group: [AD_GROUP_NAME]
+- Keyword: 
+- Match type: Broad match
+

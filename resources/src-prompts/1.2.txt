@@ -1,0 +1,29 @@
+Create the folder [AD_GROUP_PATH]/[LANGUAGE_CODE] if not already created.
+
+Create a csv file inside [AD_GROUP_PATH]/[LANGUAGE_CODE] and call the file [AD_GROUP_NAME]_new_ad_group.csv.  Enclose all contents within double-quotes (").
+
+Use the default template structure below for the header and default fields.
+Include a header row in the csv file.
+
+Default Template Structure:
+- Row Type: Ad group
+- Action: Add
+- Ad group status: Enabled
+- Campaign ID: 
+- Campaign: [CAMPAIGN_NAME]
+- Ad group ID: 
+- Ad group: [AD_GROUP_NAME]
+- Ad group type: Standard
+- Ad rotation: Optimize
+- Default max. CPC: 
+- CPC%: 
+- Max. CPM: 
+- Max. CPV: 
+- Target CPA: 
+- Target CPM: 
+- Target CPV: 
+- Label: 
+- Tracking template: 
+- Final URL suffix: 
+- Custom parameter: 
+- Target ROAS: 

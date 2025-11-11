@@ -1,0 +1,21 @@
+## Task: Generate HTML Landing Page
+
+**Objective:** Create a complete HTML landing page file by merging template content with dynamic data.
+
+**Steps:**
+1. **File Creation:** Create a new HTML file named `[AD_GROUP_NAME].html` in the directory `[HTML_PATH]/[LANGUAGE_CODE]/`
+
+2. **Content Replacement:** Use the data from `[LANDING_JSON]` to replace all placeholder variables in `[LANDING_TEMPLATE]`
+
+3. **Template Processing:** 
+   - Each key in `[LANDING_JSON]` corresponds to a placeholder in `[LANDING_TEMPLATE]`
+   - Replace all instances of `[KEY_NAME]` with the corresponding value from the JSON
+   - Ensure all placeholders are replaced with actual content
+
+4. **Output:** Save the final HTML file with all placeholders replaced with the JSON data
+
+**Requirements:**
+- Maintain the original HTML structure and formatting
+- Preserve all CSS classes and styling
+- Ensure all links and URLs are properly formatted
+- Validate that no placeholder variables remain in the final output 
